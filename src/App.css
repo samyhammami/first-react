@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,52 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body {
+  background-image: linear-gradient(120deg, #eba8b5 , #f5cfbc);
+  color: #f37c8e;
+  font-family: 'Brush Script MT', cursive;
+  
 }
+h1{
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 4rem;
+}
+.inputuser{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  
+  
+
+}
+
+.btn{
+  color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #60a3bc;
+	padding: 20px;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+
+ul {
+list-style: none;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-left: 45%;
+color : whitesmoke;
+
+}
+
